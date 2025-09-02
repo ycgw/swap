@@ -1,7 +1,12 @@
 # SWAP
 
-"Talk, we need SWAP in here, multiple tokens armed with an insane transaction volume on the corner of pump.fun and bonk."
+<p align="center">
+<img src="https://github.com/user-attachments/assets/2a726383-8c51-4c0f-b339-8e3fae22bdd1" />
+</p>
 
+> Talk, we need SWAP in here, multiple tokens armed with an insane transaction volume on the corner of pump.fun and bonk!
+
+## Description
 This command-line tool automatically buys and sells Solana tokens based on predefined profit and loss targets.
 
 The tool leverages the [Jupiter API](https://dev.jup.ag/docs/api) for swaps, the [Helius API](https://www.helius.dev/docs/api-reference) for broadcasting transactions and fetching trade details, and the [Birdeye API](https://docs.birdeye.so/docs/overview) for price monitoring.
@@ -55,6 +60,7 @@ The following parameters can be configured in the `src/config.ts` file:
 - `BUY_SLIPPAGE`: the slippage to use for buying the token;
 - `SELL_SLIPPAGE`: the slippage to use for selling the token;
 
-## Disclaimer
+  <br />
 
-This tool is for educational purposes only. Trading cryptocurrencies is risky, and you should never invest more than you can afford to lose. The author is not responsible for any financial losses you may incur by using this tool.
+> [!WARNING]
+> This tool is for educational purposes only. Trading cryptocurrencies is risky, and you should never invest more than you can afford to lose. The author is not responsible for any financial losses you may incur by using this tool.
